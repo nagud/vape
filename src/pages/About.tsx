@@ -1,3 +1,4 @@
+import { storeInfo } from "../config/brand";
 import { SectionHeader } from "../components/SectionHeader";
 
 const reasons = [
@@ -22,15 +23,15 @@ export function About() {
         <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <SectionHeader
             eyebrow="About Us"
-            title="A modern vape shop for premium discovery."
-            description="Nebula Vape Co. blends luxury retail design with practical product clarity. Inspired by modern vape marketplaces, the site presents trusted devices, e-liquids, pouches, and accessories in a polished dark experience."
+            title="A modern smoke shop for premium discovery."
+            description={`${storeInfo.name} blends luxury retail design with practical product clarity. The site presents cigars, tobacco, vape juice, Geek Bar devices, hookah, kratom, CBD, cigarettes, and accessories in a polished dark experience.`}
           />
           <div className="premium-card rounded-[2.5rem] p-8 sm:p-10">
             <h2 className="text-2xl font-black text-white">Our Mission</h2>
             <p className="mt-4 text-lg leading-8 text-slate-300">
-              To make premium vape shopping feel simple, transparent, and elevated by combining
+              To make smoke shop browsing feel simple, transparent, and elevated by combining
               tasteful design with useful product data, responsive navigation, and effortless
-              browsing.
+              discovery.
             </p>
           </div>
         </div>

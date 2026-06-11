@@ -1,3 +1,4 @@
+import { storeInfo } from "../config/brand";
 import { SectionHeader } from "../components/SectionHeader";
 
 export function Contact() {
@@ -59,15 +60,15 @@ export function Contact() {
             <div className="mt-6 space-y-5 text-slate-300">
               <p>
                 <span className="block text-sm uppercase tracking-[0.24em] text-slate-500">Email</span>
-                hello@nebulavape.example
+                {storeInfo.email}
               </p>
               <p>
                 <span className="block text-sm uppercase tracking-[0.24em] text-slate-500">Phone</span>
-                (555) 014-9088
+                {storeInfo.phone}
               </p>
               <p>
                 <span className="block text-sm uppercase tracking-[0.24em] text-slate-500">Address</span>
-                420 Vapor Ave, Suite 8, Las Vegas, NV
+                {storeInfo.address}
               </p>
             </div>
           </div>

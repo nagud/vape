@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { storeInfo } from "../config/brand";
 
 const navigation = [
   { label: "Home", href: "/" },
@@ -22,11 +23,13 @@ export function Navbar() {
     <header className="sticky top-0 z-50 border-b border-white/10 bg-black/70 backdrop-blur-2xl">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         <Link to="/" className="flex items-center gap-3" onClick={() => setIsOpen(false)}>
-          <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-violet-500 to-cyan-400 text-lg font-black text-white glow-ring">
-            N
-          </span>
-          <span className="text-lg font-black tracking-tight text-white sm:text-xl">
-            Nebula Vape Co.
+          <img
+            src="/images/vape-lot-logo.svg"
+            alt=""
+            className="h-11 w-11 rounded-2xl glow-ring"
+          />
+          <span className="max-w-[12rem] text-base font-black leading-tight tracking-tight text-white sm:max-w-none sm:text-xl">
+            {storeInfo.name}
           </span>
         </Link>
 

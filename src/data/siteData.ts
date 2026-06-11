@@ -54,7 +54,7 @@ export const testimonials: Testimonial[] = [
     name: "Sophia L.",
     location: "Miami, FL",
     quote:
-      "Clean design, clear specs, and no clutter. Nebula has become my go-to place to discover new arrivals.",
+      "Clean design, clear specs, and no clutter. Vape Lot has become my go-to place to discover new arrivals.",
     rating: 5,
   },
 ];

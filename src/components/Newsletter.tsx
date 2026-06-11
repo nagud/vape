@@ -1,3 +1,5 @@
+import { storeInfo } from "../config/brand";
+
 export function Newsletter() {
   return (
     <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
@@ -11,7 +13,7 @@ export function Newsletter() {
               Get new flavors before they sell out.
             </h2>
             <p className="mt-4 max-w-2xl text-slate-300">
-              Join the Nebula list for launch alerts, limited bundle previews, and curated product
+              Join the {storeInfo.shortName} list for launch alerts, limited bundle previews, and curated product
               picks from our vape specialists.
             </p>
           </div>

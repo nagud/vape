@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { storeInfo } from "../config/brand";
 import heroProducts from "../data/products.json";
 import { formatPuffs } from "../lib/products";
 import type { Product } from "../types";
@@ -15,10 +16,10 @@ export function HeroBanner() {
             Premium drops live now
           </div>
           <h1 className="max-w-4xl text-5xl font-black leading-[0.95] tracking-tight text-white sm:text-6xl lg:text-7xl">
-            Luxury vape essentials with <span className="gradient-text">electric flavor</span>.
+            {storeInfo.name} for <span className="gradient-text">premium smoke essentials</span>.
           </h1>
           <p className="mt-7 max-w-2xl text-lg leading-8 text-slate-300">
-            Discover eVapeLot-inspired premium disposables, pod systems, e-liquids, pouches, and
+            {storeInfo.tagline} Browse premium disposables, pod systems, e-liquids, pouches, and
             accessories in a sleek dark storefront built for fast browsing.
           </p>
           <div className="mt-9 flex flex-col gap-4 sm:flex-row">

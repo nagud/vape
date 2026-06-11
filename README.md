@@ -1,7 +1,8 @@
-# Nebula Vape Co.
+# Vape Lot Smoke Shop
 
-A modern, premium vape shop static website inspired by eVapeLot. Built with React,
-TypeScript, Vite, Tailwind CSS, React Router, and local JSON product data.
+A modern, premium smoke shop static website for cigar, tobacco, vape juice, Geek Bar,
+hookah, kratom, CBD, cigarettes, and more. Built with React, TypeScript, Vite,
+Tailwind CSS, React Router, and local JSON product data.
 
 ## Features
 
