@@ -1,0 +1,36 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="900" rx="96" fill="#090A12"/>
+  <g filter="url(#blur)">
+    <circle cx="224" cy="187" r="170" fill="#7C3AED" fill-opacity="0.75"/>
+    <circle cx="704" cy="215" r="190" fill="#2563EB" fill-opacity="0.65"/>
+    <circle cx="530" cy="702" r="210" fill="#06B6D4" fill-opacity="0.45"/>
+  </g>
+  <rect x="284" y="130" width="332" height="640" rx="92" fill="url(#device)" stroke="url(#stroke)" stroke-width="6"/>
+  <rect x="352" y="94" width="196" height="120" rx="58" fill="#151827" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="5"/>
+  <rect x="330" y="248" width="240" height="92" rx="46" fill="#FFFFFF" fill-opacity="0.08"/>
+  <rect x="354" y="272" width="116" height="18" rx="9" fill="#FFFFFF" fill-opacity="0.52"/>
+  <rect x="354" y="306" width="154" height="14" rx="7" fill="#7DD3FC" fill-opacity="0.88"/>
+  <path d="M450 404C512.96 404 564 455.04 564 518C564 580.96 512.96 632 450 632C387.04 632 336 580.96 336 518C336 455.04 387.04 404 450 404Z" fill="url(#orb)" fill-opacity="0.9"/>
+  <path d="M406 518C406 493.7 425.7 474 450 474C474.3 474 494 493.7 494 518C494 542.3 474.3 562 450 562C425.7 562 406 542.3 406 518Z" fill="#050507" fill-opacity="0.5"/>
+  <rect x="376" y="675" width="148" height="18" rx="9" fill="#FFFFFF" fill-opacity="0.25"/>
+  <defs>
+    <filter id="blur" x="-90" y="-90" width="1080" height="1080" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="70"/>
+    </filter>
+    <linearGradient id="device" x1="284" y1="130" x2="616" y2="770" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2A2D43"/>
+      <stop offset="0.48" stop-color="#101220"/>
+      <stop offset="1" stop-color="#050507"/>
+    </linearGradient>
+    <linearGradient id="stroke" x1="305" y1="155" x2="597" y2="746" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA"/>
+      <stop offset="0.5" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.14"/>
+    </linearGradient>
+    <linearGradient id="orb" x1="358" y1="431" x2="538" y2="612" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA"/>
+      <stop offset="0.45" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+</svg>
