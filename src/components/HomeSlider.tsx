@@ -12,7 +12,7 @@ const slides = [
     href: "/products?sort=featured",
     filter: "bestSeller",
     badge: "Bundle & Save",
-    accent: "from-amber-500/20 via-orange-500/10 to-lime-500/10",
+    accent: "from-cyan-500/20 via-violet-500/10 to-blue-500/10",
   },
   {
     eyebrow: "Chosen by Vape Lot Experts",
@@ -23,7 +23,7 @@ const slides = [
     href: "/products",
     filter: "featured",
     badge: "Expert Picks",
-    accent: "from-lime-500/20 via-amber-500/10 to-stone-500/10",
+    accent: "from-violet-500/20 via-cyan-500/10 to-slate-500/10",
   },
   {
     eyebrow: "Just Dropped",
@@ -34,7 +34,7 @@ const slides = [
     href: "/new-arrivals",
     filter: "newArrival",
     badge: "New Drops",
-    accent: "from-orange-500/20 via-red-500/10 to-amber-500/10",
+    accent: "from-fuchsia-500/20 via-blue-500/10 to-cyan-500/10",
   },
 ] as const;
 
@@ -73,10 +73,10 @@ export function HomeSlider() {
       >
         <div className="relative z-10 grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
           <div aria-live="polite">
-            <div className="mb-5 inline-flex rounded-full border border-amber-300/20 bg-amber-300/10 px-4 py-2 text-sm font-bold uppercase tracking-[0.24em] text-amber-100">
+            <div className="mb-5 inline-flex rounded-full border border-cyan-300/20 bg-cyan-300/10 px-4 py-2 text-sm font-bold uppercase tracking-[0.24em] text-cyan-100">
               {activeSlide.badge}
             </div>
-            <p className="text-sm font-semibold uppercase tracking-[0.32em] text-amber-300">
+            <p className="text-sm font-semibold uppercase tracking-[0.32em] text-cyan-300">
               {activeSlide.eyebrow}
             </p>
             <h2 className="mt-4 text-3xl font-black tracking-tight text-white sm:text-5xl">
@@ -88,7 +88,7 @@ export function HomeSlider() {
             <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
               <Link
                 to={activeSlide.href}
-                className="rounded-full bg-gradient-to-r from-amber-500 to-lime-500 px-7 py-3.5 text-center font-bold text-black transition hover:scale-[1.02] hover:shadow-xl hover:shadow-amber-500/25"
+                className="rounded-full bg-gradient-to-r from-cyan-500 to-violet-600 px-7 py-3.5 text-center font-bold text-white transition hover:scale-[1.02] hover:shadow-xl hover:shadow-cyan-500/25"
               >
                 {activeSlide.cta}
               </Link>
@@ -96,7 +96,7 @@ export function HomeSlider() {
                 <button
                   type="button"
                   onClick={goToPrevious}
-                  className="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 text-xl font-bold text-white transition hover:border-amber-300 hover:text-amber-200"
+                  className="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 text-xl font-bold text-white transition hover:border-cyan-300 hover:text-cyan-200"
                   aria-label="Previous promotion"
                 >
                   -
@@ -104,7 +104,7 @@ export function HomeSlider() {
                 <button
                   type="button"
                   onClick={goToNext}
-                  className="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 text-xl font-bold text-white transition hover:border-amber-300 hover:text-amber-200"
+                  className="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 text-xl font-bold text-white transition hover:border-cyan-300 hover:text-cyan-200"
                   aria-label="Next promotion"
                 >
                   +
@@ -118,7 +118,7 @@ export function HomeSlider() {
                   type="button"
                   onClick={() => setActiveIndex(index)}
                   className={`h-2.5 rounded-full transition ${
-                    index === activeIndex ? "w-10 bg-amber-300" : "w-2.5 bg-white/25 hover:bg-white/50"
+                    index === activeIndex ? "w-10 bg-cyan-300" : "w-2.5 bg-white/25 hover:bg-white/50"
                   }`}
                   aria-label={`Show ${slide.eyebrow}`}
                   aria-current={index === activeIndex}
@@ -132,7 +132,7 @@ export function HomeSlider() {
               <Link
                 key={product.id}
                 to={`/products/${product.id}`}
-                className="group rounded-[2rem] border border-white/10 bg-black/35 p-4 transition hover:-translate-y-2 hover:border-amber-300/40"
+                className="group rounded-[2rem] border border-white/10 bg-black/35 p-4 transition hover:-translate-y-2 hover:border-cyan-300/40"
               >
                 <img
                   src={product.image}
@@ -140,12 +140,12 @@ export function HomeSlider() {
                   className="aspect-square rounded-[1.5rem] object-cover transition duration-500 group-hover:scale-105"
                   loading="lazy"
                 />
-                <p className="mt-4 text-xs font-semibold uppercase tracking-[0.22em] text-lime-200">
+                <p className="mt-4 text-xs font-semibold uppercase tracking-[0.22em] text-violet-200">
                   {product.brand}
                 </p>
                 <h3 className="mt-2 text-lg font-black text-white">{product.name}</h3>
                 <p className="mt-1 text-sm text-slate-400">{product.flavor}</p>
-                <p className="mt-4 text-xl font-black text-amber-200">{formatPrice(product.price)}</p>
+                <p className="mt-4 text-xl font-black text-cyan-200">{formatPrice(product.price)}</p>
               </Link>
             ))}
           </div>

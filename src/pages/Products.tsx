@@ -81,7 +81,7 @@ export function Products() {
               value={search}
               onChange={(event) => updateParam("search", event.target.value)}
               placeholder="Flavor, product, brand..."
-              className="h-12 w-full rounded-full border border-white/10 bg-black/40 px-4 text-white outline-none transition placeholder:text-slate-500 focus:border-amber-300"
+              className="h-12 w-full rounded-full border border-white/10 bg-black/40 px-4 text-white outline-none transition placeholder:text-slate-500 focus:border-cyan-300"
             />
           </label>
 
@@ -90,7 +90,7 @@ export function Products() {
             <select
               value={category}
               onChange={(event) => updateParam("category", event.target.value)}
-              className="h-12 w-full rounded-full border border-white/10 bg-black/40 px-4 text-white outline-none transition focus:border-amber-300"
+              className="h-12 w-full rounded-full border border-white/10 bg-black/40 px-4 text-white outline-none transition focus:border-cyan-300"
             >
               <option>All</option>
               {categories.map((item) => (
@@ -104,7 +104,7 @@ export function Products() {
             <select
               value={brand}
               onChange={(event) => updateParam("brand", event.target.value)}
-              className="h-12 w-full rounded-full border border-white/10 bg-black/40 px-4 text-white outline-none transition focus:border-amber-300"
+              className="h-12 w-full rounded-full border border-white/10 bg-black/40 px-4 text-white outline-none transition focus:border-cyan-300"
             >
               <option>All</option>
               {brands.map((item) => (
@@ -118,7 +118,7 @@ export function Products() {
             <select
               value={sort}
               onChange={(event) => updateParam("sort", event.target.value)}
-              className="h-12 w-full rounded-full border border-white/10 bg-black/40 px-4 text-white outline-none transition focus:border-amber-300"
+              className="h-12 w-full rounded-full border border-white/10 bg-black/40 px-4 text-white outline-none transition focus:border-cyan-300"
             >
               {sortOptions.map((option) => (
                 <option key={option.value} value={option.value}>
@@ -133,7 +133,7 @@ export function Products() {
           <p>{filteredProducts.length} products found</p>
           <button
             type="button"
-            className="rounded-full border border-white/10 px-4 py-2 font-semibold text-slate-300 transition hover:border-amber-300 hover:text-amber-200"
+            className="rounded-full border border-white/10 px-4 py-2 font-semibold text-slate-300 transition hover:border-cyan-300 hover:text-cyan-200"
             onClick={() => setSearchParams({})}
           >
             Clear Filters

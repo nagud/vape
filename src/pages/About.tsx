@@ -48,7 +48,7 @@ export function About() {
           <div className="mt-10 grid gap-6 lg:grid-cols-3">
             {reasons.map((reason, index) => (
               <article key={reason.title} className="premium-card rounded-[2rem] p-7">
-                <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-amber-500 to-lime-500 text-lg font-black text-black">
+                <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-cyan-500 to-violet-600 text-lg font-black text-white">
                   {index + 1}
                 </div>
                 <h3 className="text-xl font-black text-white">{reason.title}</h3>

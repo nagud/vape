@@ -27,7 +27,7 @@ export function Footer() {
           <ul className="mt-5 space-y-3">
             {footerLinks.map((link) => (
               <li key={link.href}>
-                <Link className="text-sm text-slate-400 transition hover:text-amber-200" to={link.href}>
+                <Link className="text-sm text-slate-400 transition hover:text-cyan-200" to={link.href}>
                   {link.label}
                 </Link>
               </li>
@@ -46,7 +46,7 @@ export function Footer() {
               <a
                 key={social}
                 href="#"
-                className="rounded-full border border-white/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.18em] text-slate-300 transition hover:border-amber-300 hover:text-amber-200"
+                className="rounded-full border border-white/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.18em] text-slate-300 transition hover:border-cyan-300 hover:text-cyan-200"
               >
                 {social}
               </a>

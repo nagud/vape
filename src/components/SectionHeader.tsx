@@ -14,7 +14,7 @@ export function SectionHeader({
   return (
     <div className={align === "center" ? "mx-auto max-w-3xl text-center" : "max-w-3xl"}>
       {eyebrow ? (
-        <p className="mb-3 text-sm font-semibold uppercase tracking-[0.32em] text-amber-300">
+        <p className="mb-3 text-sm font-semibold uppercase tracking-[0.32em] text-cyan-300">
           {eyebrow}
         </p>
       ) : null}
