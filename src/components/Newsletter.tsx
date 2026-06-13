@@ -6,7 +6,7 @@ export function Newsletter() {
       <div className="premium-card noise-overlay overflow-hidden rounded-[2.5rem] p-8 sm:p-10 lg:p-14">
         <div className="relative z-10 grid gap-8 lg:grid-cols-[1fr_0.9fr] lg:items-center">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.32em] text-cyan-300">
+            <p className="text-sm font-semibold uppercase tracking-[0.32em] text-amber-300">
               Members Only Drops
             </p>
             <h2 className="mt-4 text-3xl font-black tracking-tight text-white sm:text-5xl">
@@ -25,11 +25,11 @@ export function Newsletter() {
               id="newsletter-email"
               type="email"
               placeholder="you@example.com"
-              className="min-h-14 flex-1 rounded-full border border-white/10 bg-black/40 px-5 text-white outline-none transition placeholder:text-slate-500 focus:border-cyan-300"
+              className="min-h-14 flex-1 rounded-full border border-white/10 bg-black/40 px-5 text-white outline-none transition placeholder:text-slate-500 focus:border-amber-300"
             />
             <button
               type="submit"
-              className="min-h-14 rounded-full bg-gradient-to-r from-violet-500 to-cyan-400 px-8 font-bold text-white transition hover:scale-[1.02] hover:shadow-lg hover:shadow-cyan-500/20"
+              className="min-h-14 rounded-full bg-gradient-to-r from-amber-500 to-lime-500 px-8 font-bold text-black transition hover:scale-[1.02] hover:shadow-lg hover:shadow-amber-500/25"
             >
               Sign Up
             </button>

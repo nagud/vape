@@ -28,7 +28,7 @@ export function Home() {
           />
           <Link
             to="/products"
-            className="w-fit rounded-full border border-white/15 px-6 py-3 font-bold text-white transition hover:border-cyan-300 hover:bg-white/10"
+            className="w-fit rounded-full border border-white/15 px-6 py-3 font-bold text-white transition hover:border-amber-300 hover:bg-white/10"
           >
             View All Products
           </Link>
@@ -46,7 +46,7 @@ export function Home() {
             />
             <Link
               to="/new-arrivals"
-              className="w-fit rounded-full bg-white px-6 py-3 font-bold text-black transition hover:bg-cyan-200"
+              className="w-fit rounded-full bg-white px-6 py-3 font-bold text-black transition hover:bg-amber-200"
             >
               See New Drops
             </Link>

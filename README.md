@@ -6,7 +6,7 @@ Tailwind CSS, React Router, and local JSON product data.
 
 ## Features
 
-- Dark luxury theme with purple and blue gradient accents
+- Dark luxury theme with amber, tobacco, and smoke-green accents
 - Responsive pages for home, catalog, product details, categories, new arrivals, about, and contact
 - Static JSON product catalog
 - Product search, category filtering, brand filtering, and sorting

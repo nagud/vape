@@ -43,7 +43,7 @@ export function Navbar() {
 
         <Link
           to="/products"
-          className="hidden rounded-full bg-gradient-to-r from-violet-500 to-cyan-400 px-5 py-2.5 text-sm font-bold text-white transition hover:scale-105 lg:inline-flex"
+          className="hidden rounded-full bg-gradient-to-r from-amber-500 to-lime-500 px-5 py-2.5 text-sm font-bold text-black transition hover:scale-105 lg:inline-flex"
         >
           Shop Now
         </Link>

@@ -17,14 +17,14 @@ export function Contact() {
               <label>
                 <span className="mb-2 block text-sm font-semibold text-slate-300">First Name</span>
                 <input
-                  className="h-12 w-full rounded-full border border-white/10 bg-black/40 px-4 text-white outline-none transition focus:border-cyan-300"
+                  className="h-12 w-full rounded-full border border-white/10 bg-black/40 px-4 text-white outline-none transition focus:border-amber-300"
                   placeholder="Alex"
                 />
               </label>
               <label>
                 <span className="mb-2 block text-sm font-semibold text-slate-300">Last Name</span>
                 <input
-                  className="h-12 w-full rounded-full border border-white/10 bg-black/40 px-4 text-white outline-none transition focus:border-cyan-300"
+                  className="h-12 w-full rounded-full border border-white/10 bg-black/40 px-4 text-white outline-none transition focus:border-amber-300"
                   placeholder="Morgan"
                 />
               </label>
@@ -33,7 +33,7 @@ export function Contact() {
               <span className="mb-2 block text-sm font-semibold text-slate-300">Email</span>
               <input
                 type="email"
-                className="h-12 w-full rounded-full border border-white/10 bg-black/40 px-4 text-white outline-none transition focus:border-cyan-300"
+                className="h-12 w-full rounded-full border border-white/10 bg-black/40 px-4 text-white outline-none transition focus:border-amber-300"
                 placeholder="you@example.com"
               />
             </label>
@@ -41,13 +41,13 @@ export function Contact() {
               <span className="mb-2 block text-sm font-semibold text-slate-300">Message</span>
               <textarea
                 rows={6}
-                className="w-full rounded-[1.5rem] border border-white/10 bg-black/40 px-4 py-3 text-white outline-none transition focus:border-cyan-300"
+                className="w-full rounded-[1.5rem] border border-white/10 bg-black/40 px-4 py-3 text-white outline-none transition focus:border-amber-300"
                 placeholder="Tell us what you are looking for..."
               />
             </label>
             <button
               type="submit"
-              className="rounded-full bg-gradient-to-r from-violet-500 to-cyan-400 px-8 py-4 font-bold text-white transition hover:scale-[1.02]"
+              className="rounded-full bg-gradient-to-r from-amber-500 to-lime-500 px-8 py-4 font-bold text-black transition hover:scale-[1.02]"
             >
               Send Message
             </button>
@@ -75,7 +75,7 @@ export function Contact() {
 
           <div className="premium-card flex min-h-80 items-center justify-center rounded-[2rem] p-8 text-center">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-[0.32em] text-cyan-300">
+              <p className="text-sm font-semibold uppercase tracking-[0.32em] text-amber-300">
                 Google Maps
               </p>
               <h2 className="mt-3 text-2xl font-black text-white">Embed Placeholder</h2>

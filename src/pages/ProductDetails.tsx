@@ -11,13 +11,13 @@ export function ProductDetails() {
   if (!product) {
     return (
       <main className="mx-auto max-w-4xl px-4 py-24 text-center sm:px-6 lg:px-8">
-        <p className="text-sm font-semibold uppercase tracking-[0.32em] text-cyan-300">
+        <p className="text-sm font-semibold uppercase tracking-[0.32em] text-amber-300">
           Product Not Found
         </p>
         <h1 className="mt-4 text-4xl font-black text-white">This product is no longer available.</h1>
         <Link
           to="/products"
-          className="mt-8 inline-flex rounded-full bg-white px-6 py-3 font-bold text-black transition hover:bg-cyan-200"
+          className="mt-8 inline-flex rounded-full bg-white px-6 py-3 font-bold text-black transition hover:bg-amber-200"
         >
           Back to Products
         </Link>
@@ -45,7 +45,7 @@ export function ProductDetails() {
               <button
                 key={label}
                 type="button"
-                className="rounded-3xl border border-white/10 bg-white/[0.04] p-3 text-sm font-bold text-slate-300 transition hover:border-cyan-300 hover:text-cyan-200"
+                className="rounded-3xl border border-white/10 bg-white/[0.04] p-3 text-sm font-bold text-slate-300 transition hover:border-amber-300 hover:text-amber-200"
               >
                 {label}
               </button>
@@ -54,7 +54,7 @@ export function ProductDetails() {
         </div>
 
         <div className="flex flex-col justify-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.32em] text-cyan-300">
+          <p className="text-sm font-semibold uppercase tracking-[0.32em] text-amber-300">
             {product.brand}
           </p>
           <h1 className="mt-4 text-4xl font-black tracking-tight text-white sm:text-6xl">
@@ -84,7 +84,7 @@ export function ProductDetails() {
             </div>
             <button
               type="button"
-              className="rounded-full bg-gradient-to-r from-violet-500 to-cyan-400 px-8 py-4 font-bold text-white transition hover:scale-[1.02]"
+              className="rounded-full bg-gradient-to-r from-amber-500 to-lime-500 px-8 py-4 font-bold text-black transition hover:scale-[1.02]"
             >
               Add to Cart
             </button>

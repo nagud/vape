@@ -7,7 +7,7 @@ type TestimonialCardProps = {
 export function TestimonialCard({ testimonial }: TestimonialCardProps) {
   return (
     <figure className="premium-card rounded-[2rem] p-7">
-      <div className="mb-5 flex gap-1 text-cyan-200" aria-label={`${testimonial.rating} out of 5 stars`}>
+      <div className="mb-5 flex gap-1 text-amber-200" aria-label={`${testimonial.rating} out of 5 stars`}>
         {Array.from({ length: testimonial.rating }).map((_, index) => (
           <span key={index}>*</span>
         ))}
