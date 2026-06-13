@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { BrandStrip } from "../sections/BrandStrip";
 import { CategoryCard } from "../components/CategoryCard";
 import { HeroBanner } from "../components/HeroBanner";
+import { HomeSlider } from "../components/HomeSlider";
 import { Newsletter } from "../components/Newsletter";
 import { ProductGrid } from "../components/ProductGrid";
 import { SectionHeader } from "../components/SectionHeader";
@@ -17,6 +18,7 @@ export function Home() {
   return (
     <>
       <HeroBanner />
+      <HomeSlider />
       <BrandStrip />
 
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
