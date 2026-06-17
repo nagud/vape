@@ -7,6 +7,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build --base=/app/",
     "build:root": "tsc -b && vite build",
+    "prepare:catalyst": "node scripts/prepare-catalyst-client.mjs",
+    "build:catalyst": "npm run build && npm run prepare:catalyst",
+    "deploy:catalyst": "npm run build:catalyst && catalyst deploy --only client",
     "preview": "vite preview"
   },
   "repository": {

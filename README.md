@@ -41,8 +41,13 @@ On Windows:
 ```bat
 cd C:\Users\DELL\vape
 npm install
-npm run build
-xcopy dist\* client\ /E /Y
+npm run deploy:catalyst
+```
+
+If you want to build and copy first, then deploy manually:
+
+```bat
+npm run build:catalyst
 catalyst deploy --only client
 ```
 
