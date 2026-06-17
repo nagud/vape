@@ -17,7 +17,7 @@ export function Footer() {
         <div>
           <Link to="/" className="inline-flex items-center gap-3">
             <img
-              src={assetPath("/images/vape-lot-logo.svg")}
+              src={assetPath("images/vape-lot-logo.svg")}
               alt=""
               className="h-11 w-11 rounded-2xl"
             />

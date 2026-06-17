@@ -10,7 +10,7 @@
     "newArrival": true,
     "featured": true,
     "bestSeller": true,
-    "image": "/images/vape-gradient.svg",
+    "image": "images/vape-gradient.svg",
     "description": "A crisp blue raspberry disposable with a chilled finish, tuned for smooth clouds and consistent flavor from first puff to last.",
     "specifications": {
       "battery": "650mAh rechargeable",
@@ -30,7 +30,7 @@
     "newArrival": true,
     "featured": true,
     "bestSeller": true,
-    "image": "/images/vape-gradient.svg",
+    "image": "images/vape-gradient.svg",
     "description": "A futuristic disposable built for high-output sessions with a refreshing mint profile and premium airflow.",
     "specifications": {
       "battery": "820mAh rechargeable",
@@ -50,7 +50,7 @@
     "newArrival": false,
     "featured": true,
     "bestSeller": false,
-    "image": "/images/vape-gradient.svg",
+    "image": "images/vape-gradient.svg",
     "description": "A compact disposable that blends ripe strawberry with tropical mango for a balanced all-day flavor.",
     "specifications": {
       "battery": "500mAh rechargeable",
@@ -70,7 +70,7 @@
     "newArrival": false,
     "featured": false,
     "bestSeller": true,
-    "image": "/images/vape-gradient.svg",
+    "image": "images/vape-gradient.svg",
     "description": "A bold candy fruit blend with layered sweetness, dense vapor, and a premium metallic finish.",
     "specifications": {
       "battery": "650mAh rechargeable",
@@ -90,7 +90,7 @@
     "newArrival": true,
     "featured": false,
     "bestSeller": false,
-    "image": "/images/vape-gradient.svg",
+    "image": "images/vape-gradient.svg",
     "description": "A smooth aloe grape profile in an ergonomic pebble shell designed for everyday portability.",
     "specifications": {
       "battery": "600mAh rechargeable",
@@ -110,7 +110,7 @@
     "newArrival": false,
     "featured": false,
     "bestSeller": true,
-    "image": "/images/vape-gradient.svg",
+    "image": "images/vape-gradient.svg",
     "description": "A bright peach and mixed berry disposable with a clean draw and pocket-friendly silhouette.",
     "specifications": {
       "battery": "650mAh rechargeable",
@@ -130,7 +130,7 @@
     "newArrival": true,
     "featured": true,
     "bestSeller": false,
-    "image": "/images/vape-gradient.svg",
+    "image": "images/vape-gradient.svg",
     "description": "A sleek pod system with adjustable output, leak-resistant pods, and a premium aluminum chassis.",
     "specifications": {
       "battery": "900mAh built-in",
@@ -150,7 +150,7 @@
     "newArrival": false,
     "featured": true,
     "bestSeller": true,
-    "image": "/images/vape-gradient.svg",
+    "image": "images/vape-gradient.svg",
     "description": "Premium nicotine salt e-liquid with juicy watermelon, a cool exhale, and clean coil-friendly sweetness.",
     "specifications": {
       "battery": "Not applicable",
@@ -170,7 +170,7 @@
     "newArrival": true,
     "featured": false,
     "bestSeller": false,
-    "image": "/images/vape-gradient.svg",
+    "image": "images/vape-gradient.svg",
     "description": "Discreet, smoke-free nicotine pouches with a cooling mint profile and compact premium tin.",
     "specifications": {
       "battery": "Not applicable",
@@ -190,7 +190,7 @@
     "newArrival": false,
     "featured": false,
     "bestSeller": false,
-    "image": "/images/vape-gradient.svg",
+    "image": "images/vape-gradient.svg",
     "description": "A compact protective carry case with magnetic closure, soft-touch finish, and room for accessories.",
     "specifications": {
       "battery": "Not applicable",
