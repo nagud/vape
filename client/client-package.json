@@ -4,5 +4,5 @@
   "description": "Vape Lot Smoke Shop static website",
   "homepage": "index.html",
   "login_redirect": "index.html",
-  "404": "index.html"
+  "404": "404.html"
 }

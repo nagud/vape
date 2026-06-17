@@ -22,3 +22,5 @@ export const assetPath = (path: string) => {
 
 export const routerBasename =
   getRuntimeBaseUrl() === "/" ? undefined : getRuntimeBaseUrl().replace(/\/$/, "");
+
+export const useHashRouting = routerBasename === "/app";

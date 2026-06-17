@@ -53,3 +53,5 @@ catalyst deploy --only client
 
 The `client/client-package.json` file must remain in the `client` folder when
 deploying. The generated build files copied from `dist` are ignored by Git.
+Catalyst builds use `/app/` asset paths and hash routing so product/category
+pages work on static hosting without server rewrite rules.
