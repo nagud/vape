@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "Elf Bar BC5000 Ultra",
+    "brand": "Elf Bar",
+    "category": "Disposable Vapes",
+    "flavor": "Blue Razz Ice",
+    "puffs": 5000,
+    "price": 19.99,
+    "newArrival": true,
+    "featured": true,
+    "bestSeller": true,
+    "image": "images/vape-gradient.svg",
+    "description": "A crisp blue raspberry disposable with a chilled finish, tuned for smooth clouds and consistent flavor from first puff to last.",
+    "specifications": {
+      "battery": "650mAh rechargeable",
+      "nicotine": "5% nicotine salt",
+      "capacity": "13ml pre-filled",
+      "charging": "USB-C"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Geek Bar Pulse X",
+    "brand": "Geek Bar",
+    "category": "Disposable Vapes",
+    "flavor": "Miami Mint",
+    "puffs": 15000,
+    "price": 24.99,
+    "newArrival": true,
+    "featured": true,
+    "bestSeller": true,
+    "image": "images/vape-gradient.svg",
+    "description": "A futuristic disposable built for high-output sessions with a refreshing mint profile and premium airflow.",
+    "specifications": {
+      "battery": "820mAh rechargeable",
+      "nicotine": "5% nicotine salt",
+      "capacity": "18ml pre-filled",
+      "charging": "USB-C"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Lost Mary MO5000",
+    "brand": "Lost Mary",
+    "category": "Disposable Vapes",
+    "flavor": "Strawberry Mango",
+    "puffs": 5000,
+    "price": 18.99,
+    "newArrival": false,
+    "featured": true,
+    "bestSeller": false,
+    "image": "images/vape-gradient.svg",
+    "description": "A compact disposable that blends ripe strawberry with tropical mango for a balanced all-day flavor.",
+    "specifications": {
+      "battery": "500mAh rechargeable",
+      "nicotine": "5% nicotine salt",
+      "capacity": "13.5ml pre-filled",
+      "charging": "USB-C"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Raz TN9000",
+    "brand": "Raz Vape",
+    "category": "Disposable Vapes",
+    "flavor": "Night Crawler",
+    "puffs": 9000,
+    "price": 22.99,
+    "newArrival": false,
+    "featured": false,
+    "bestSeller": true,
+    "image": "images/vape-gradient.svg",
+    "description": "A bold candy fruit blend with layered sweetness, dense vapor, and a premium metallic finish.",
+    "specifications": {
+      "battery": "650mAh rechargeable",
+      "nicotine": "5% nicotine salt",
+      "capacity": "12ml pre-filled",
+      "charging": "USB-C"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Flum Pebble 6000",
+    "brand": "Flum",
+    "category": "Disposable Vapes",
+    "flavor": "Aloe Grape",
+    "puffs": 6000,
+    "price": 20.99,
+    "newArrival": true,
+    "featured": false,
+    "bestSeller": false,
+    "image": "images/vape-gradient.svg",
+    "description": "A smooth aloe grape profile in an ergonomic pebble shell designed for everyday portability.",
+    "specifications": {
+      "battery": "600mAh rechargeable",
+      "nicotine": "5% nicotine salt",
+      "capacity": "14ml pre-filled",
+      "charging": "USB-C"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Hyde IQ Pro",
+    "brand": "Hyde",
+    "category": "Disposable Vapes",
+    "flavor": "Peach Berry",
+    "puffs": 5000,
+    "price": 17.99,
+    "newArrival": false,
+    "featured": false,
+    "bestSeller": true,
+    "image": "images/vape-gradient.svg",
+    "description": "A bright peach and mixed berry disposable with a clean draw and pocket-friendly silhouette.",
+    "specifications": {
+      "battery": "650mAh rechargeable",
+      "nicotine": "5% nicotine salt",
+      "capacity": "10ml pre-filled",
+      "charging": "Micro USB"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Caliburn G3 Pod Kit",
+    "brand": "Uwell",
+    "category": "Pod Systems",
+    "flavor": "Refillable",
+    "puffs": 0,
+    "price": 34.99,
+    "newArrival": true,
+    "featured": true,
+    "bestSeller": false,
+    "image": "images/vape-gradient.svg",
+    "description": "A sleek pod system with adjustable output, leak-resistant pods, and a premium aluminum chassis.",
+    "specifications": {
+      "battery": "900mAh built-in",
+      "nicotine": "Compatible with nic salts",
+      "capacity": "2.5ml refillable pod",
+      "charging": "USB-C"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Nexa Salt E-Liquid",
+    "brand": "Nexa",
+    "category": "E-Liquids",
+    "flavor": "Watermelon Chill",
+    "puffs": 0,
+    "price": 15.99,
+    "newArrival": false,
+    "featured": true,
+    "bestSeller": true,
+    "image": "images/vape-gradient.svg",
+    "description": "Premium nicotine salt e-liquid with juicy watermelon, a cool exhale, and clean coil-friendly sweetness.",
+    "specifications": {
+      "battery": "Not applicable",
+      "nicotine": "35mg nicotine salt",
+      "capacity": "30ml bottle",
+      "charging": "Not applicable"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Arctic Mint Pouches",
+    "brand": "Zynova",
+    "category": "Nicotine Pouches",
+    "flavor": "Arctic Mint",
+    "puffs": 0,
+    "price": 6.99,
+    "newArrival": true,
+    "featured": false,
+    "bestSeller": false,
+    "image": "images/vape-gradient.svg",
+    "description": "Discreet, smoke-free nicotine pouches with a cooling mint profile and compact premium tin.",
+    "specifications": {
+      "battery": "Not applicable",
+      "nicotine": "6mg per pouch",
+      "capacity": "20 pouches",
+      "charging": "Not applicable"
+    }
+  },
+  {
+    "id": 10,
+    "name": "MagSafe Vape Case",
+    "brand": "Vape Lot",
+    "category": "Accessories",
+    "flavor": "Matte Black",
+    "puffs": 0,
+    "price": 12.99,
+    "newArrival": false,
+    "featured": false,
+    "bestSeller": false,
+    "image": "images/vape-gradient.svg",
+    "description": "A compact protective carry case with magnetic closure, soft-touch finish, and room for accessories.",
+    "specifications": {
+      "battery": "Not applicable",
+      "nicotine": "Not applicable",
+      "capacity": "Fits most compact devices",
+      "charging": "Cable pass-through"
+    }
+  }
+]

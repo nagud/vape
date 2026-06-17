@@ -1,0 +1,7 @@
+{
+  "client": {
+    "source": "client",
+    "ignore": [],
+    "scripts": {}
+  }
+}

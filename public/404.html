@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting | Vape Lot Smoke Shop</title>
+    <script>
+      (function () {
+        var appBase = "/app";
+        var path = window.location.pathname || "/";
+        var route = path.indexOf(appBase) === 0 ? path.slice(appBase.length) : "/";
+
+        if (!route || route === "/") {
+          route = "/";
+        }
+
+        window.location.replace(appBase + "/#" + route + window.location.search + window.location.hash);
+      })();
+    </script>
+  </head>
+  <body>
+    Redirecting to Vape Lot Smoke Shop...
+  </body>
+</html>
