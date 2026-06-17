@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { storeInfo } from "../config/brand";
+import { assetPath } from "../lib/assets";
 
 const footerLinks = [
   { label: "Products", href: "/products" },
@@ -15,7 +16,11 @@ export function Footer() {
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-12 sm:px-6 lg:grid-cols-[1.2fr_0.8fr_1fr] lg:px-8">
         <div>
           <Link to="/" className="inline-flex items-center gap-3">
-            <img src="/images/vape-lot-logo.svg" alt="" className="h-11 w-11 rounded-2xl" />
+            <img
+              src={assetPath("/images/vape-lot-logo.svg")}
+              alt=""
+              className="h-11 w-11 rounded-2xl"
+            />
             <span className="text-xl font-black tracking-tight text-white">{storeInfo.name}</span>
           </Link>
           <p className="mt-5 max-w-sm text-sm leading-7 text-slate-400">

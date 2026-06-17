@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { storeInfo } from "../config/brand";
+import { assetPath } from "../lib/assets";
 
 const navigation = [
   { label: "Home", href: "/" },
@@ -24,7 +25,7 @@ export function Navbar() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         <Link to="/" className="flex items-center gap-3" onClick={() => setIsOpen(false)}>
           <img
-            src="/images/vape-lot-logo.svg"
+            src={assetPath("/images/vape-lot-logo.svg")}
             alt=""
             className="h-11 w-11 rounded-2xl glow-ring"
           />

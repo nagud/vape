@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { storeInfo } from "../config/brand";
 import heroProducts from "../data/products.json";
+import { assetPath } from "../lib/assets";
 import { formatPuffs } from "../lib/products";
 import type { Product } from "../types";
 
@@ -56,7 +57,7 @@ export function HeroBanner() {
               Save on bundles
             </div>
             <img
-              src={showcaseProduct.image}
+              src={assetPath(showcaseProduct.image)}
               alt={showcaseProduct.name}
               className="aspect-square rounded-[2.3rem] object-cover"
             />

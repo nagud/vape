@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
+import { assetPath } from "../lib/assets";
 import { formatPrice, productCatalog } from "../lib/products";
 
 const slides = [
@@ -135,7 +136,7 @@ export function HomeSlider() {
                 className="group rounded-[2rem] border border-white/10 bg-black/35 p-4 transition hover:-translate-y-2 hover:border-cyan-300/40"
               >
                 <img
-                  src={product.image}
+                  src={assetPath(product.image)}
                   alt={product.name}
                   className="aspect-square rounded-[1.5rem] object-cover transition duration-500 group-hover:scale-105"
                   loading="lazy"

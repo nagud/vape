@@ -1,3 +1,5 @@
 node_modules/
 dist/
+client/*
+!client/client-package.json
 *.local

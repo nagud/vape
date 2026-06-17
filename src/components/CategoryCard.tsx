@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { assetPath } from "../lib/assets";
 import type { Category } from "../types";
 
 type CategoryCardProps = {
@@ -17,7 +18,7 @@ export function CategoryCard({ category }: CategoryCardProps) {
       />
       <div className="relative z-10 flex items-start gap-5">
         <img
-          src={category.image}
+          src={assetPath(category.image)}
           alt=""
           className="h-20 w-20 rounded-3xl object-cover ring-1 ring-white/10 transition duration-300 group-hover:scale-105"
           loading="lazy"

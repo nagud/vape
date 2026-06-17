@@ -24,3 +24,27 @@ npm run dev
 ```bash
 npm run build
 ```
+
+The default production build is configured for Zoho Catalyst Web Client Hosting,
+where the app is served from `/app/`.
+
+For root-domain static hosts, use:
+
+```bash
+npm run build:root
+```
+
+## Zoho Catalyst Deployment
+
+On Windows:
+
+```bat
+cd C:\Users\DELL\vape
+npm install
+npm run build
+xcopy dist\* client\ /E /Y
+catalyst deploy --only client
+```
+
+The `client/client-package.json` file must remain in the `client` folder when
+deploying. The generated build files copied from `dist` are ignored by Git.

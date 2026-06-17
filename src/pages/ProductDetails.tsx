@@ -1,6 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 import { ProductGrid } from "../components/ProductGrid";
 import { SectionHeader } from "../components/SectionHeader";
+import { assetPath } from "../lib/assets";
 import { formatPrice, formatPuffs, getProductById, productCatalog } from "../lib/products";
 
 export function ProductDetails() {
@@ -35,7 +36,7 @@ export function ProductDetails() {
         <div>
           <div className="premium-card rounded-[2.5rem] p-5">
             <img
-              src={product.image}
+              src={assetPath(product.image)}
               alt={product.name}
               className="aspect-square w-full rounded-[2rem] object-cover"
             />

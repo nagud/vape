@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { assetPath } from "../lib/assets";
 import { formatPrice, formatPuffs } from "../lib/products";
 import type { Product } from "../types";
 
@@ -16,7 +17,7 @@ export function ProductCard({ product }: ProductCardProps) {
       ) : null}
       <Link to={`/products/${product.id}`} className="block overflow-hidden rounded-[1.5rem] bg-black/30">
         <img
-          src={product.image}
+          src={assetPath(product.image)}
           alt={product.name}
           className="aspect-square w-full object-cover transition duration-500 group-hover:scale-105"
           loading="lazy"

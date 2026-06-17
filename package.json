@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build --base=/app/",
+    "build:root": "tsc -b && vite build",
     "preview": "vite preview"
   },
   "repository": {
